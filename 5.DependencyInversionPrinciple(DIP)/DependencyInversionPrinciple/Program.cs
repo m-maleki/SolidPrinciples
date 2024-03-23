@@ -2,7 +2,7 @@
 
 public interface ICustomerDataAccess
 {
-    string GetCustomerName(int id);
+    string GetCustomerName(int  id);
 }
 
 public class CustomerDataAccess : ICustomerDataAccess
